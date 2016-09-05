@@ -1008,6 +1008,7 @@ steps['HLTD']=merge([{'--process':'reHLT',
                       '--data':'',
                       '--eventcontent': 'FEVTDEBUGHLT',
                       '--datatier': 'FEVTDEBUGHLT',
+                      '--customise' : 'RecoTracker/Configuration/customizeMinPtForHitRecoveryInGluedDet.customizeHitRecoveryInGluedDetOff', 
 #                      '--output':'\'[{"e":"RAW","t":"RAW","o":["drop FEDRawDataCollection_rawDataCollector__LHC"]}]\'',
                       },])
 
