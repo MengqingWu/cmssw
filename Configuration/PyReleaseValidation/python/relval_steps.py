@@ -318,7 +318,7 @@ baseDataSetRelease=[
     'CMSSW_7_3_0_pre1-PRE_LS172_V15_FastSim-v1',                # 4 - fast sim GEN-SIM-DIGI-RAW-HLTDEBUG for id tests
     'CMSSW_8_1_0_pre4-PU25ns_80X_mcRun2_asymptotic_v13-v1',     # 5 - fullSim PU 25ns premix for 810pre4
     'CMSSW_8_1_0_pre4-PU50ns_80X_mcRun2_startup_v13-v1',        # 6 - fullSim PU 50ns premix for 810pre4
-    'CMSSW_8_1_0_pre4-80X_mcRun2_asymptotic_v13_FastSim-v1',    # 7 - fastSim MinBias for mixing for 810pre4
+    'CMSSW_8_1_0_pre11-81X_mcRun2_asymptotic_Candidate_2016_08_30_11_31_55_FastSim-v1',    # 7 - fastSim MinBias for mixing for 810_pre11
     'CMSSW_8_1_0_pre4-PU25ns_80X_mcRun2_asymptotic_v13_FastSim-v1',# 8 - fastSim premixed MinBias for 810pre4
     'CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1', 	           # 9 - Run2 HI GEN-SIM
     'CMSSW_7_6_0-76X_mcRun2_asymptotic_v11-v1',                    # 10 - 13 TeV High Stats GEN-SIM
