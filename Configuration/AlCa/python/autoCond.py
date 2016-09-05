@@ -12,7 +12,7 @@ autoCond = {
     # GlobalTag for MC production with perfectly aligned and calibrated detector for Run2
     'run2_design'       :   '81X_mcRun2_design_v5',
     # GlobalTag for MC production with pessimistic alignment and calibrations for Run2
-    'run2_mc_50ns'      :   '81X_mcRun2_startup_Candidate_2016_08_30_11_37_42 ', #'81X_mcRun2_startup_v5',
+    'run2_mc_50ns'      :   '81X_mcRun2_startup_Candidate_2016_08_30_11_37_42', #'81X_mcRun2_startup_v5',
     #GlobalTag for MC production with optimistic alignment and calibrations for Run2
     'run2_mc'           :   '81X_mcRun2_asymptotic_Candidate_2016_08_30_11_31_55', #'81X_mcRun2_asymptotic_v5',
     # GlobalTag for MC production (cosmics) with starup-like alignment and calibrations for Run2, Strip tracker in peak mode
