@@ -666,8 +666,8 @@ FS_PREMIXUP15_PU25_OVERLAY = merge([
         {"-s" : "GEN,SIM,RECOBEFMIX,DIGIPREMIX_S2:pdigi_valid,DATAMIX,L1,DIGI2RAW,L1Reco,RECO,HLT:@relval2016,VALIDATION",
          "--datamix" : "PreMix",
          "--pileup_input" : "dbs:/RelValFS_PREMIXUP15_PU25/%s/GEN-SIM-DIGI-RAW"%(baseDataSetRelease[8],),
-         "--customise":"SimGeneral/DataMixingModule/customiseForPremixingInput.customiseForPreMixingInput",
-         '--customise' : 'RecoTracker/Configuration/customizeMinPtForHitRecoveryInGluedDet.customizeHitRecoveryInGluedDetOff',
+         "--customise" : "SimGeneral/DataMixingModule/customiseForPremixingInput.customiseForPreMixingInput",
+         "--customise" : "RecoTracker/Configuration/customizeMinPtForHitRecoveryInGluedDet.customizeHitRecoveryInGluedDetOff"
          },
         Kby(100,500),step1FastUpg2015Defaults])
 
