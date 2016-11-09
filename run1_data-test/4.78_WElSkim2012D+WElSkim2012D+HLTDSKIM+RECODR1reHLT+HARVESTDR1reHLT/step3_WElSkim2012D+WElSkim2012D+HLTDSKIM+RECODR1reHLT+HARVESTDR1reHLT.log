@@ -1,0 +1,265 @@
+Added 'egmPhotonIDs' to process definition (MiniAOD format)!
+Added 'egmPhotonIDs' to process definition (MiniAOD format)!
+L1TRawToDigi Sequence configured for Run1 (Legacy) trigger. 
+WARNING:  L1Trigger/L1TCommon/python/caloStage1LegacyFormatDigis_cfi.py has been deprecated...
+WARNING:  please use L1Trigger/L1TCalorimeter/python/caloStage1LegacyFormatDigis_cfi.py
+**************************************************************
+b tagging needs to be run on uncorrected jets. Hence, the JECs
+will first be undone for 'updatedPatJetsBTAG' and then applied to
+'updatedPatJetsTransientCorrectedBTAG'.
+**************************************************************
+******************* RunOnData *******************
+************** MC dependence removal ************
+removing MC dependencies for photons
+removing MC dependencies for electrons
+removing MC dependencies for muons
+removing MC dependencies for taus
+removing MC dependencies for taus boosted 
+removing MC dependencies for jets
+adding L2L3Residual JEC for: patJetCorrFactorsTransientCorrectedBTAG
+adding L2L3Residual JEC for: patJetCorrFactorsAK8Puppi
+adding L2L3Residual JEC for: patJetCorrFactorsAK8
+adding L2L3Residual JEC for: patJetCorrFactorsPuppi
+adding L2L3Residual JEC for: patJetCorrFactorsAK8PFCHSSoftDrop
+adding L2L3Residual JEC for: patJetCorrFactorsAK8PFPuppiSoftDropSubjets
+adding L2L3Residual JEC for: patJetCorrFactors
+adding L2L3Residual JEC for: patJetCorrFactorsAK8PFPuppiSoftDrop
+adding L2L3Residual JEC for: patJetCorrFactorsNoHF
+08-Nov-2016 18:20:16 CET  Initiating request to open file file:step2.root
+08-Nov-2016 18:20:18 CET  Successfully opened file file:step2.root
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:46 CET  pre-events
+The EDFilter 'TrackSelector' with module label 'highPurityPt1' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:46 CET  pre-events
+The EDFilter 'TrackSelector' with module label 'highPurityPtRange0to1' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:48 CET  pre-events
+The EDFilter 'VertexSelector' with module label 'goodOfflinePrimaryVerticesDQM' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:48 CET  pre-events
+The EDFilter 'CSCTightHaloFilter' with module label 'CSCTightHaloFilterDQM' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:48 CET  pre-events
+The EDFilter 'CSCTightHalo2015Filter' with module label 'CSCTightHalo2015FilterDQM' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:48 CET  pre-events
+The EDFilter 'EEBadScFilter' with module label 'eeBadScFilterDQM' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:48 CET  pre-events
+The EDFilter 'EcalDeadCellTriggerPrimitiveFilter' with module label 'EcalDeadCellTriggerPrimitiveFilterDQM' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:48 CET  pre-events
+The EDFilter 'EcalDeadCellBoundaryEnergyFilter' with module label 'EcalDeadCellBoundaryEnergyFilterDQM' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:48 CET  pre-events
+The EDFilter 'HcalStripHaloFilter' with module label 'HcalStripHaloFilterDQM' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'TauValPFJetSelector' with module label 'kinematicSelectedPFJets' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'TauValPFJetSelector' with module label 'PFJetsId' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'VertexSelector' with module label 'ElPrimaryVertexFilter' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'TauValElectronSelector' with module label 'selectedElectrons' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'TauValElectronSelector' with module label 'idElectrons' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'TauValElectronSelector' with module label 'trackElectrons' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'TauValElectronSelector' with module label 'isolatedElectrons' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'TrackSelector' with module label 'ElGoodTracks' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'VertexSelector' with module label 'MuPrimaryVertexFilter' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'MuonSelector' with module label 'selectedMuons' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'MuonSelector' with module label 'selectedMuonsIso' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'TrackSelector' with module label 'MuGoodTracks' appears on EndPath 'dqmoffline_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+%MSG-w FilterOnEndPath:  AfterModConstruction 08-Nov-2016 18:20:52 CET  pre-events
+The EDFilter 'VertexSelector' with module label 'goodOfflinePrimaryVerticesDQMforMiniAOD' appears on EndPath 'dqmoffline_1_step'.
+The return value of the filter will be ignored.
+To suppress this warning, either remove the filter from the endpath,
+or explicitly ignore it in the configuration by using cms.ignore().
+
+%MSG
+Begin processing the 1st record. Run 208307, Event 51171966, LumiSection 31 at 08-Nov-2016 18:21:34.527 CET
+%MSG-w Configuration:  HLTHighLevel:ALCARECOTkAlMinBiasNOTHLT  08-Nov-2016 18:21:52 CET Run: 208307 Event: 51171966
+none of the requested paths and pattern match any HLT path - no events will be selected
+%MSG
+%MSG-w HLTTauDQMOffline:  HLTTauDQMOfflineSource:hltTauOfflineMonitor_PFTaus  08-Nov-2016 18:21:56 CET Run: 208307 Event: 51171966
+HLTTauDQML1Plotter::analyze: unable to read L1 tau collection hltCaloStage2Digis:Tau
+%MSG
+%MSG-w HLTTauDQMOffline:  HLTTauDQMOfflineSource:hltTauOfflineMonitor_PFTaus  08-Nov-2016 18:21:56 CET Run: 208307 Event: 51171966
+HLTTauDQML1Plotter::analyze: unable to read L1 met collection hltCaloStage2Digis:EtSum
+%MSG
+%MSG-w HLTTauDQMOffline:  HLTTauDQMOfflineSource:hltTauOfflineMonitor_Inclusive  08-Nov-2016 18:21:56 CET Run: 208307 Event: 51171966
+HLTTauDQML1Plotter::analyze: unable to read L1 tau collection hltCaloStage2Digis:Tau
+%MSG
+%MSG-w HLTTauDQMOffline:  HLTTauDQMOfflineSource:hltTauOfflineMonitor_Inclusive  08-Nov-2016 18:21:56 CET Run: 208307 Event: 51171966
+HLTTauDQML1Plotter::analyze: unable to read L1 met collection hltCaloStage2Digis:EtSum
+%MSG
+%MSG-w L3Absolute not found:  PATJetUpdater:updatedPatJetsBTAG  08-Nov-2016 18:21:57 CET Run: 208307 Event: 51171966
+L2L3Residual and L3Absolute are not part of the jetCorrFactors
+of module patJetCorrFactorsBTAG. Jets will remain uncorrected.
+%MSG
+%MSG-e triggerResultsValid:  PATTriggerProducer:patTrigger  08-Nov-2016 18:21:57 CET Run: 208307 Event: 51171966
+TriggerResults product with InputTag 'TriggerResults::HLT' not in event
+No HLT information produced
+%MSG
+----- Begin Fatal Exception 08-Nov-2016 18:21:57 CET-----------------------
+An exception of category 'ProductNotFound' occurred while
+   [0] Processing run: 208307 lumi: 31 event: 51171966
+   [1] Running path 'MINIAODoutput_step'
+   [2] Calling event method for module PoolOutputModule/'MINIAODoutput'
+   [3] Prefetching for unscheduled module PATTriggerObjectStandAloneSelector/'selectedPatTrigger'
+   [4] Calling method for unscheduled module PATTriggerProducer/'patTrigger'
+Exception Message:
+Principal::getByLabel: Found zero products matching all criteria
+Looking for type: edm::TriggerResults
+Looking for module label: TriggerResults
+Looking for productInstanceName: 
+Looking for process: HLT
+   Additional Info:
+      [a] If you wish to continue processing events after a ProductNotFound exception,
+add "SkipEvent = cms.untracked.vstring('ProductNotFound')" to the "options" PSet in the configuration.
+
+----- End Fatal Exception -------------------------------------------------
+%MSG-w BSFitter:  AlcaBeamMonitor:AlcaBeamMonitor@endLumi  08-Nov-2016 18:21:57 CET Run: 208307 Lumi: 31
+need at least 150 tracks to run beamline fitter.
+%MSG
+08-Nov-2016 18:21:59 CET  Closed file file:step2.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 BSFitter             -w AlcaBeamMonitor:                       1        1
+    2 Configuration        -w HLTHighLevel:ALC                       1        1
+    3 FilterOnEndPath      -w AfterModConstruc                      22       22
+    4 HLTTauDQMOffline     -w HLTTauDQMOffline                       2        2
+    5 HLTTauDQMOffline     -w HLTTauDQMOffline                       2        2
+    6 L3Absolute not found -w PATJetUpdater:up                       1        1
+    7 triggerResultsValid  -e PATTriggerProduc                       1        1
+    8 Fatal Exception      -s PostProcessPath                        1        1
+    9 fileAction           -s file_close                             1        1
+   10 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 BSFitter             Run: 208307 Lumi                  
+    2 Configuration        208307/51171966                   
+    3 FilterOnEndPath      pre-events       pre-events       pre-events
+    4 HLTTauDQMOffline     208307/51171966  208307/51171966  
+    5 HLTTauDQMOffline     208307/51171966  208307/51171966  
+    6 L3Absolute not found 208307/51171966                   
+    7 triggerResultsValid  208307/51171966                   
+    8 Fatal Exception      208307/51171966                   
+    9 fileAction           PostEndRun                        
+   10 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                29                  29
+Error                   1                   1
+System                  4                   4
