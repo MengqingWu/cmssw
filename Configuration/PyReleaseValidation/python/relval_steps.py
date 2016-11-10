@@ -363,7 +363,7 @@ baseDataSetRelease=[
     'CMSSW_8_1_0_pre16-PU25ns_81X_mcRun2_asymptotic_v11-v1',    # 5 - fullSim PU 25ns premix from 810_p16
     'CMSSW_8_1_0_pre16-PU50ns_81X_mcRun2_startup_v12-v1',        # 6 - fullSim PU 50ns premix from 810_p16 
     'CMSSW_8_1_0_pre16-81X_mcRun2_asymptotic_v11_FastSim-v1',    # 7 - fastSim MinBias for mixing from 810_p16
-    'CMSSW_8_1_0_pre15-PU25ns_81X_mcRun2_asymptotic_v11_resub_FastSim-v1',# 8 - fastSim premixed MinBias 
+    'CMSSW_8_1_0_pre16-PU25ns_81X_mcRun2_asymptotic_v11_FastSim-v1', # 8 - fastSim premixed MinBias from 810_p16 
     'CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1', 	           # 9 - Run2 HI GEN-SIM
     'CMSSW_7_6_0-76X_mcRun2_asymptotic_v11-v1',                    # 10 - 13 TeV High Stats GEN-SIM
     'CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1',         # 11 - 13 TeV High Stats MiniBias for mixing GEN-SIM
@@ -1658,7 +1658,7 @@ from  Configuration.PyReleaseValidation.upgradeWorkflowComponents import *
 
 defaultDataSets={}
 defaultDataSets['2017']='CMSSW_8_1_0_pre16-81X_upgrade2017_realistic_v22-v'
-defaultDataSets['2017Design']='CMSSW_8_1_0_pre15-81X_upgrade2017_design_IdealBS_v1_2017design-v'
+defaultDataSets['2017Design']='CMSSW_8_1_0_pre16-81X_upgrade2017_design_IdealBS_v6-v'
 defaultDataSets['2023D1']=''
 defaultDataSets['2023D2']=''
 defaultDataSets['2023D3']=''
