@@ -216,8 +216,8 @@ class MatrixInjector(object):
             wmsplit['DigiFullPU']=1
             wmsplit['RecoFullPU']=1
             wmsplit['DigiFullPU_2017PU']=1
-            wmsplit['RecoFullPU_2017PU']=1 
-                                    
+            wmsplit['RecoFullPU_2017PU']=1
+
             #import pprint
             #pprint.pprint(wmsplit)            
         except:
