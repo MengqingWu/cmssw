@@ -360,14 +360,14 @@ baseDataSetRelease=[
                                                             # THIS ABOVE IS NOT USED, AT THE MOMENT
     'CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1',     # 3 - 13 TeV samples with GEN-SIM from 810_p9 G4 10.2; also GEN-SIM-DIGI-RAW-HLTDEBUG for id tests
     'CMSSW_7_3_0_pre1-PRE_LS172_V15_FastSim-v1',                   # 4 - fast sim GEN-SIM-DIGI-RAW-HLTDEBUG for id tests
-    'CMSSW_8_1_0_pre15-PU25ns_81X_mcRun2_asymptotic_v11-v1',    # 5 - fullSim PU 25ns premix 
-    'CMSSW_8_1_0_pre15-PU50ns_81X_mcRun2_startup_v12-v1',        # 6 - fullSim PU 50ns premix 
-    'CMSSW_8_1_0_pre15-81X_mcRun2_asymptotic_v11_FastSim-v1',    # 7 - fastSim MinBias for mixing 
+    'CMSSW_9_0_0_pre1-PU25ns_90X_mcRun2_asymptotic_v0-v1',    # 5 - fullSim PU 25ns premix 
+    'CMSSW_9_0_0_pre1-PU50ns_90X_mcRun2_startup_v0-v1',        # 6 - fullSim PU 50ns premix 
+    'CMSSW_9_0_0_pre1-90X_mcRun2_asymptotic_v0_FastSim-v1',    # 7 - fastSim MinBias for mixing - 900pre1
     'CMSSW_8_1_0_pre15-PU25ns_81X_mcRun2_asymptotic_v11_resub_FastSim-v1',# 8 - fastSim premixed MinBias 
     'CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1', 	           # 9 - Run2 HI GEN-SIM
     'CMSSW_7_6_0-76X_mcRun2_asymptotic_v11-v1',                    # 10 - 13 TeV High Stats GEN-SIM
     'CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1',         # 11 - 13 TeV High Stats MiniBias for mixing GEN-SIM
-    'CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2cosmics_startup_peak_v2-v1', # 12 - GEN-SIM input for 1307 cosmics wf from 810_p2
+    'CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2cosmics_startup_peak_v2-v1', # 12 - GEN-SIM input for 1307 cosmics wf from 810_p9_G4102
     ]
 
 # note: INPUT commands to be added once GEN-SIM w/ 13TeV+PostLS1Geo will be available 
@@ -1675,7 +1675,7 @@ from  Configuration.PyReleaseValidation.upgradeWorkflowComponents import *
 
 defaultDataSets={}
 defaultDataSets['2017']='CMSSW_8_1_0-81X_upgrade2017_realistic_v26-v'
-defaultDataSets['2017Design']='CMSSW_8_1_0_pre16-81X_upgrade2017_design_IdealBS_v6-v'
+defaultDataSets['2017Design']='CMSSW_9_0_0_pre1-90X_upgrade2017_design_IdealBS_v0-v'
 defaultDataSets['2023D1']=''
 defaultDataSets['2023D2']=''
 defaultDataSets['2023D3']=''
