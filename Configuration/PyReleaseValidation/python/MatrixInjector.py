@@ -258,6 +258,7 @@ class MatrixInjector(object):
                             if (index==0):
                                 #first step and not input -> gen part
                                 chainDict['nowmTasklist'].append(copy.deepcopy(self.defaultScratch))
+                                chainDict['nowmTasklist'][-1]['Multicore'] = 1 # added for 1-core GS running 
                                 try:
                                     chainDict['nowmTasklist'][-1]['nowmIO']=json.loads(open('%s/%s.io'%(dir,step)).read())
                                 except:
